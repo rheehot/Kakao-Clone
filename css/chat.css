@@ -203,3 +203,8 @@
   .sent-message {
     animation: sentAnimation 0.5s ease-out forwards;
   }
+
+  .chats__chat {
+      padding: 7px 0px;
+      margin: 7px 0px;
+  }
