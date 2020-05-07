@@ -1,13 +1,28 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: red;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* margin-bottom: 30px; */
+    position: fixed;
+    width: 100%;
+    top: 36px;
+    right: 0px;
+    background-color: white;
 }
 
 .header .header__title {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .header .header__icon {
