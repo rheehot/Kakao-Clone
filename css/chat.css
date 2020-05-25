@@ -1,6 +1,7 @@
 .chats-body {
   padding: 0;
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 
 @keyframes float {
@@ -35,7 +36,7 @@
   background-image: url("../images/pixel-heart.png");
   background-size: contain;
   background-attachment: fixed;
-  min-height: 120vh;
+  min-height: 100%;
 }
 
 .chat__write--container {
