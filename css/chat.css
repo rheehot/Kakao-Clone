@@ -21,13 +21,24 @@
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   }
 }
-
+/* 
 .header-wrapper {
   position: fixed;
   z-index: 2;
   width: 100%;
-  height: inherit;
+  height: 100%;
+  top: 0;
   padding: 5px 0px;
+  background-color: red;
+  box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+} */
+.status-bar-chat {
+  background-color: white;
+  z-index: 6;
+}
+
+.chats-body .header-chat {
   box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
@@ -37,6 +48,7 @@
   background-size: contain;
   background-attachment: fixed;
   min-height: 100%;
+  z-index: 0;
 }
 
 .chat__write--container {
@@ -151,7 +163,7 @@
   border-radius: 15px;
   margin-right: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    rgba(0, 0, 0, 0.24) 0px -6px 16px -6px;
   animation: spin 2.5s linear infinite;
 }
 
@@ -159,7 +171,7 @@
   padding: 10px 20px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    rgba(0, 0, 0, 0.24) 0px -6px 16px -6px;
   font-weight: 700;
   color: white;
   line-height: 23px;
